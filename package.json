@@ -1,0 +1,36 @@
+{
+  "name": "hapi-thinky",
+  "version": "0.0.1",
+  "description": "Hapi plugin for rethinkdb's thinky orm.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node node_modules/lab/bin/lab -a code -t 100 -L -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shinzui/hapi-thinky.git"
+  },
+  "keywords": [
+    "hapi",
+    "hapijs",
+    "rethinkdb",
+    "thinky"
+  ],
+  "author": "Nadeem Bitar <nadeem@productatelier.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shinzui/hapi-thinky/issues"
+  },
+  "homepage": "https://github.com/shinzui/hapi-thinky#readme",
+  "dependencies": {
+    "glue": ">=2.2.0",
+    "hapi": ">=9.1.0",
+    "hoek": ">=2.14.0",
+    "thinky": "~2.1.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.1",
+    "code": ">=1.5.0",
+    "lab": ">=5.16.0"
+  }
+}
