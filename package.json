@@ -1,6 +1,6 @@
 {
   "name": "hapi-thinky",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hapi plugin for rethinkdb's thinky orm",
   "main": "lib/index.js",
   "scripts": {
