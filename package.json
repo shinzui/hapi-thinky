@@ -23,14 +23,14 @@
   },
   "homepage": "https://github.com/shinzui/hapi-thinky#readme",
   "dependencies": {
-    "glue": "^2.3.0",
-    "hapi": "^10.0.0",
-    "hoek": "^2.16.2",
+    "glue": ">=2.3.0",
+    "hapi": ">=10.0.0",
+    "hoek": ">=2.16.2",
     "thinky": "~2.1.6"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.3",
     "code": ">=1.5.0",
-    "lab": "^5.17.0"
+    "lab": "^6.2.0"
   }
 }
