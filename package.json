@@ -1,7 +1,7 @@
 {
   "name": "hapi-thinky",
   "version": "0.0.1",
-  "description": "Hapi plugin for rethinkdb's thinky orm.",
+  "description": "Hapi plugin for rethinkdb's thinky orm",
   "main": "lib/index.js",
   "scripts": {
     "test": "node node_modules/lab/bin/lab -a code -t 100 -L -v"
