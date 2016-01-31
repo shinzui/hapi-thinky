@@ -4,7 +4,10 @@
   "description": "Hapi plugin for rethinkdb's thinky orm",
   "main": "lib/index.js",
   "scripts": {
-    "test": "node node_modules/lab/bin/lab -a code -t 100 -L -v"
+    "test": "node node_modules/lab/bin/lab -a code -t 100 -L -v",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags && npm publish"
+
   },
   "repository": {
     "type": "git",
