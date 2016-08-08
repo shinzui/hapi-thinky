@@ -1,11 +1,11 @@
-var Hapi = require('hapi')
-var Lab = require('lab')
-var Code = require('code')
-var Path = require('path')
+const Hapi = require('hapi')
+const Lab = require('lab')
+const Code = require('code')
+const Path = require('path')
 
-var ThinkyPlugin = require('../lib')
+const ThinkyPlugin = require('../lib')
 
-var internals = {}
+const internals = {}
 
 internals.manifest = {
   connections: [
@@ -26,18 +26,18 @@ internals.composeOptions = {
   relativeTo: Path.resolve(__dirname, '../lib')
 }
 
-var lab = exports.lab = Lab.script()
-var expect = Code.expect
-var it = lab.test
+const lab = exports.lab = Lab.script()
+const expect = Code.expect
+const it = lab.test
 
-it('register the plugin', function(done) {
-  var server = new Hapi.Server()
-  var Plugin = {
+it('register the plugin', (done) => {
+  const server = new Hapi.Server()
+  const Plugin = {
     register: ThinkyPlugin,
     options: {}
   }
 
-  server.register(Plugin, function (err) {
+  server.register(Plugin, (err) => {
     expect(err).to.not.exist()
   })
 
