@@ -1,6 +1,6 @@
 {
   "name": "hapi-thinky",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hapi plugin for rethinkdb's thinky orm",
   "main": "lib/index.js",
   "scripts": {
@@ -42,5 +42,4 @@
   "peerDependencies": {
     "hapi": ">10.0.0 <15.0"
   }
-
 }
